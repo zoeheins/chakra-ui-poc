@@ -1,25 +1,29 @@
 import React from 'react';
 import {
-  UnorderedList,
-  ListItem,
   Box,
   Button,
-  Center,
-  SimpleGrid,
   Flex,
+  Heading,
+  ListItem,
+  SimpleGrid,
+  UnorderedList,
+  Container,
 } from '@chakra-ui/react';
 
 function Buttons() {
   return (
     <>
       <Flex flexDirection='column' alignItems='center'>
-        Accessibility:
-        <UnorderedList>
-          <ListItem>Button has role of button</ListItem>
-          <ListItem>
-            When Button has focus, Space or Enter activates it.
-          </ListItem>
-        </UnorderedList>
+        <Heading>Buttons</Heading>
+        <Container>
+          Default accessibility:
+          <UnorderedList>
+            <ListItem>Button has role of button</ListItem>
+            <ListItem>
+              When Button has focus, Space or Enter activates it.
+            </ListItem>
+          </UnorderedList>
+        </Container>
         <SimpleGrid
           bg='white'
           columns={2}
