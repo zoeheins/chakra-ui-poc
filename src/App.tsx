@@ -1,11 +1,9 @@
 import React from 'react';
 
-import Buttons from './Buttons'
+import Buttons from './Buttons';
 
 function App() {
-  return (
-    <Buttons/>
-  );
+  return <Buttons />;
 }
 
 export default App;
